@@ -1,0 +1,43 @@
+EUPS distribution manifest for LSSTPipe (3.0). Version 1.0
+#
+# pkg           flavor  version  tablefile                   installation_directory        installID
+#-------------- ------- -------- --------------------------- ------------------
+mysqlclient     generic 5.0.45+1 external/mysqlclient.table  external/mysqlclient/5.0.45+1 lsstbuild:external/mysqlclient/5.0.45+1/mysqlclient.bld
+tcltk           generic 8.5a4    external/tcltk.table        external/tcltk/8.5a4          lsstbuild:external/tcltk/8.5a4/tcltk.bld
+python          generic 2.5.2    external/python.table       external/python/2.5.2         lsstbuild:external/python/2.5.2/python.bld
+boost           generic 1.36.0   external/boost.table        external/boost/1.36.0         lsstbuild:external/boost/1.36.0/boost.bld
+sconsDistrib    generic 0.98.5   external/sconsDistrib.table external/sconsDistrib/0.98.5  lsstbuild:external/sconsDistrib/0.98.5/sconsDistrib.bld
+scons           generic 3.2      scons.table                 sconsUtils/3.2                lsstbuild:sconsUtils/3.2/sconsUtils.bld
+swig            generic 1.3.36+2 external/swig.table         external/swig/1.3.36+2        lsstbuild:external/swig/1.3.36+2/swig.bld
+doxygen         generic 1.5.4    external/doxygen.table      external/doxygen/1.5.4        lsstbuild:external/doxygen/1.5.4/doxygen.bld
+base            generic 3.1      base.table                  base/3.1                      lsstbuild:base/3.1/base-3.1.tar.gz
+utils           generic 3.0      utils.table                 utils/3.0                     lsstbuild:utils/3.0/utils-3.0.tar.gz
+daf_base        generic 3.0      daf_base.table              daf_base/3.0                  lsstbuild:daf_base/3.0/daf_base-3.0.tar.gz
+pex_logging     generic 3.0      pex_logging.table           pex_logging/3.0               lsstbuild:pex_logging/3.0/pex_logging-3.0.tar.gz
+pex_exceptions  generic 3.0      pex_exceptions.table        pex_exceptions/3.0            lsstbuild:pex_exceptions/3.0/pex_exceptions-3.0.tar.gz
+pex_policy      generic 3.0.1    pex_policy.table            pex_policy/3.0.1              lsstbuild:pex_policy/3.0.1/pex_policy-3.0.1.tar.gz
+daf_persistence generic 3.1.1    daf_persistence.table       daf_persistence/3.1.1         lsstbuild:daf_persistence/3.1.1/daf_persistence-3.1.1.tar.gz
+security        generic 3.0      security.table              security/3.0                  lsstbuild:security/3.0/security-3.0.tar.gz
+daf_data        generic 3.0      daf_data.table              daf_data/3.0                  lsstbuild:daf_data/3.0/daf_data-3.0.tar.gz
+vwlapack        generic 1.0.0    external/vwlapack.table     external/vwlapack/1.0.0       lsstbuild:external/vwlapack/1.0.0/vwlapack-1.0.0.tar.gz
+vw              generic 1.0.1+3  external/vw.table           external/vw/1.0.1+3           lsstbuild:external/vw/1.0.1+3/vw.bld
+cfitsio         generic 3006.2   external/cfitsio.table      external/cfitsio/3006.2       lsstbuild:external/cfitsio/3006.2/cfitsio.bld
+wcslib          generic 4.2+3    external/wcslib.table       external/wcslib/4.2+3         lsstbuild:external/wcslib/4.2+3/wcslib.bld
+xpa             generic 2.1.7b2  external/xpa.table          external/xpa/2.1.7b2          lsstbuild:external/xpa/2.1.7b2/xpa.bld
+numpy           generic 1.0.1    external/numpy.table        external/numpy/1.0.1          lsstbuild:external/numpy/1.0.1/numpy.bld
+minuit          generic 1.7.9    external/minuit.table       external/minuit/1.7.9         lsstbuild:external/minuit/1.7.9/minuit-1.7.9.tar.gz
+afw             generic 3.0      afw.table                   afw/3.0                       lsstbuild:afw/3.0/afw-3.0.tar.gz
+detection       generic 3.0.1    detection.table             detection/3.0.1               lsstbuild:detection/3.0.1/detection-3.0.1.tar.gz
+mops            generic 3.0      mops.table                  mops/3.0                      lsstbuild:mops/3.0/mops-3.0.tar.gz
+ap              generic 3.0      ap.table                    ap/3.0                        lsstbuild:ap/3.0/ap-3.0.tar.gz
+ip_diffim       generic 3.0.2    ip_diffim.table             ip_diffim/3.0.2               lsstbuild:ip_diffim/3.0.2/ip_diffim-3.0.2.tar.gz
+mpich2          generic 1.0.5p4  external/mpich2.table       external/mpich2/1.0.5p4       lsstbuild:external/mpich2/1.0.5p4/mpich2.bld
+utils           generic 3.2      utils.table                 utils/3.2                     lsstbuild:utils/3.2/utils-3.2.tar.gz
+daf_base        generic 3.1      daf_base.table              daf_base/3.1                  lsstbuild:daf_base/3.1/daf_base-3.1.tar.gz
+pex_logging     generic 3.1      pex_logging.table           pex_logging/3.1               lsstbuild:pex_logging/3.1/pex_logging-3.1.tar.gz
+pex_exceptions  generic 3.1      pex_exceptions.table        pex_exceptions/3.1            lsstbuild:pex_exceptions/3.1/pex_exceptions-3.1.tar.gz
+pex_policy      generic 3.1      pex_policy.table            pex_policy/3.1                lsstbuild:pex_policy/3.1/pex_policy-3.1.tar.gz
+daf_persistence generic 3.2      daf_persistence.table       daf_persistence/3.2           lsstbuild:daf_persistence/3.2/daf_persistence-3.2.tar.gz
+activemqcpp     generic 2.1-RC1  external/activemqcpp.table  external/activemqcpp/2.1-RC1  lsstbuild:external/activemqcpp/2.1-RC1/activemqcpp.bld
+ctrl_events     generic 3.0      ctrl_events.table           ctrl_events/3.0               lsstbuild:ctrl_events/3.0/ctrl_events-3.0.tar.gz
+pex_harness     generic 3.0.1    pex_harness.table           pex_harness/3.0.1             lsstbuild:pex_harness/3.0.1/pex_harness-3.0.1.tar.gz
